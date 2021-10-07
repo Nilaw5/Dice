@@ -17,14 +17,14 @@ void draw() {
   }
   grandTotal = grandTotal + sum;
   numberOfRolls = numberOfRolls + 1;
-  System.out.print("sum: ");
-  System.out.println(sum);
+  //System.out.print("sum: ");
+  //System.out.println(sum);
   textAlign(CENTER);
   fill(255, 255, 255);
   textSize(50);
   text(sum, 200, 370);
-  System.out.print("Average: ");
-  System.out.println(grandTotal/numberOfRolls);
+ // System.out.print("Average: ");
+ // System.out.println(grandTotal/numberOfRolls);
 }
 
 void mousePressed() {
